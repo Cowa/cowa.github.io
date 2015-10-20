@@ -1,0 +1,21 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Brice Thomas
+tagline:             'under construction'
+description:         'Natural Language Processing enthusiast • Developer at <a href="http://iadvize.com" target="_blank">iAdvize</a> • In love with creative code'
+url:                 http://cowa.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Brice Thomas
+  url:               https://twitter.com/Cowaa
+
+# Custom vars
+version:             1.0.0
