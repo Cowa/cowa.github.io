@@ -63,7 +63,7 @@ Way faster!
 
 ## Make it LM-ready
 
-Now we can predict probabilities of appearance of a word based on the `n` previous word(s). But in a Language Model (LM), it's important to take into consideration the beginning and ending of a sentence.
+Now we can predict probabilities of appearance of a word based on the `n` previous word(s). But in a Language Model (LM), it's important to take into consideration the beginning and ending of a sentence. And right now we don't care about it.
 
 By convention, we use `<s>` and `</s>` markers. We need to prepend our list of tokens with `n - 1 <s>` and append `1 </s>`.
 
