@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               Brice Thomas
 tagline:             'dev, code, nlp and stuff.'
-description:         'Software engineering/architecture and Natural Language Processing enthusiast • In love with creative code and creative project • Developer at <a href="http://iadvize.com" target="_blank">iAdvize</a> in Nantes, France'
+description:         'Software engineering, architecture and Natural Language Processing enthusiast • In love with creative code and creative project • Developer at <a href="http://iadvize.com" target="_blank">iAdvize</a> in Nantes, France <br/> <div class="follow"><a href="https://twitter.com/Cowaa" target="_blank"><i class="fa fa-twitter"></i></a><a class="follow" href="https://github.com/Cowa" target="_blank"><i class="fa fa-github"></i></a></div>'
 url:                 http://cowa.github.io
 baseurl:             ''
 paginate:            5

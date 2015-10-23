@@ -2,6 +2,7 @@
 layout: post
 title: N-gram models in Scala
 comments: true
+readmore: true
 ---
 
 So simple it hurts.  
@@ -36,7 +37,7 @@ We will stick with the bigram for simplicity.
 
 <script src="https://gist.github.com/Cowa/459b4471a7f192b1b41b.js"></script>
 
-For each elements, we want the probability. To compute it, we first need to count occurences of each unique tuples.  
+For each tuples, we want the probability. To compute it, we first need to count occurences of each unique tuples.  
 
 
 In Scala, we can simply group elements of the list with `groupBy(identity)` function, which returns a `Map`. And because same tuples have the same identity, they will be grouped together! Then, we have to `mapValues(_.size)` it to get the count.  
@@ -78,10 +79,10 @@ We have all the necessary to turn all of this to a small Scala module to create 
 
 There is nothing new. With this module, the end-user has just one line to write. For example, to create a trigram: 
 
-`val trigram = NGrams.build(myTextDataSource, 3)`
+`val trigram = NGram.build(myTextDataSource, 3)`
 
 And we are done!
 
 ## To be continued...
 
-In a next post, we will see how to generate text from these n-gram models. It's really fun and results are even impressive sometimes! Of course, we will need a **BIGGER** source of text to train our n-gram...
+In a next post, we will see how to generate text from these n-gram models. It's really funny and results are even impressive sometimes! Of course, we will need a **BIGGER** source of text to train our n-gram...

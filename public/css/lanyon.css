@@ -192,11 +192,11 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-item {
-    padding: 1.5rem;
+    padding: 1.0rem;
   }
   .sidebar-nav-item {
-    padding-left:  1.5rem;
-    padding-right: 1.5rem;
+    padding-left:  1.0rem;
+    padding-right: 1.0rem;
   }
 }
 
@@ -552,4 +552,14 @@ a.pagination-item:hover {
 /* Only one tweak for a reverse layout */
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+}
+
+.follow {
+  font-size: 25px;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.gist .gist-meta {
+  display: none !important;
 }
