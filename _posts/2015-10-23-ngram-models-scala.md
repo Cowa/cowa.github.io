@@ -37,7 +37,7 @@ We will stick with the bigram for simplicity.
 
 <script src="https://gist.github.com/Cowa/459b4471a7f192b1b41b.js"></script>
 
-For each tuples, we want the probability. To compute it, we first need to count occurences of each unique tuples.  
+For each tuple, we want the probability. To compute it, we first need to count occurences of each unique tuple.  
 
 
 In Scala, we can simply group elements of the list with `groupBy(identity)` function, which returns a `Map`. And because same tuples have the same identity, they will be grouped together! Then, we have to `mapValues(_.size)` it to get the count.  
