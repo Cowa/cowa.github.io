@@ -14,7 +14,7 @@ It's simple, let's say you have this index:
 
 <script src="https://gist.github.com/Cowa/d8cfc4f4ea32d5ad6d11.js"></script>
 
-For each line you have a document identifier followed by the words appearing in the document. Here, `word5` is in `document0.txt`, but not in `document1.txt`.
+For each line you have a document identifier followed by the words appearing in the document. Here, `word1` is in `document0.txt`, but not in `document1.txt`.
 
 And you want to turn this index into:
 <script src="https://gist.github.com/Cowa/3c4a1fb475083ce49bf7.js"></script>
